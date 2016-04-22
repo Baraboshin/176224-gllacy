@@ -1,0 +1,55 @@
+body {
+  font-family: "Roboto", "Arial" sans-serif;
+  color: #ffffff;
+}
+
+h1{
+  font-family: "Roboto", "Arial" sans-serif;
+  font-size: 35px;
+  line-height: 41px;
+}
+
+.main-seo h2{
+  font-family: "Roboto Medium", "Arial" sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.main-seo p{
+  font-size: 12px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.news-blog h2{
+  font-family: "Roboto Medium", "Arial" sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.news-blog span{
+  font-family: "Roboto", "Arial" sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.subscription p{
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.product-price{
+  font-size: 45px;
+  line-height: 45px;
+}
+.product-price span{
+  font-size: 30px;
+  line-height: 45px;
+}
+.product p {
+  font-family: "Roboto Medium", "Arial" sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+}
