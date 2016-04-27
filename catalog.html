@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
-    <link href="/css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
-      <div class="container">
-        <a href="index.html">
-          <img src="img/logo.svg" width="154" height="64" alt="Gllacy shop">
-        </a>
-        <nav class="main-navigation">
+      <div class="container clearfix">
+        <nav class="main-navigation clearfix">
+          <a href="index.html">
+            <img src="img/logo.svg" width="154" height="64" alt="Gllacy shop">
+          </a>
           <ul>
             <li class="navigation-item active">
               <a href="catalog.html">Каталог</a>
@@ -26,9 +26,9 @@
         </nav>
         <div class="user-block">
           <ul>
-            <li></li>
-            <li>Вход</li>
-            <li>2 товара</li>
+            <li class="user-block-item"></li>
+            <li class="user-block-item">Вход</li>
+            <li class="user-block-item">2 товара</li>
           </ul>
         </div>
         <div class="header-contacts">
@@ -42,34 +42,37 @@
     <main class="container">
       <section class="breadcrumbs">
         <ul>
-          <li>
+          <li class="breadcrumbs-item">
             <a href="index.html">Главная</a>
           </li>
-          <li>
+          <li class="breadcrumbs-item">
             Каталог
           </li>
-          <li>
+          <li class="breadcrumbs-item">
             Сливочное
           </li>
         </ul>
       </section>
       <h1 class="catalog-title">Сливочное мороженое</h1>
+
+
+
       <form class="filters" action="#" method="post">
         <ul>
-          <li>
+          <li class="filters-item">
             <h2 class="filters-title">Сортировка:</h2>
             <select class="filter-sorting" name="sorting">
               <option>По популярности</option>
               <option>По цене</option>
             </select>
           </li>
-          <li>
+          <li class="filters-item">
             <h2 class="filters-title">Цена: 100 руб. - 500 руб.</h2>
             <div class="filter-price">
             </div>
           </li>
-          <li>
-            <h2 class="filters-title">Жирность:</h2>
+          <li class="filters-item">
+            <h2 class="filters-item-title">Жирность:</h2>
             <ul class="filter-fatness">
               <li>
                 <label>
@@ -97,8 +100,8 @@
               </li>
             </ul>
           </li>
-          <li>
-            <h2 class="filters-title">Наполнители:</h2>
+          <li class="filters-item">
+            <h2 class="filters-item-title">Наполнители:</h2>
             <ul class="filter-fillers">
               <li>
                 <label>
@@ -130,14 +133,19 @@
               </li>
             </ul>
           </li>
-          <li>
+          <li class="filters-item">
             <input class="btn filter-btn" type="submit" value="Применить">
           </li>
         </ul>
       </form>
-      <section class="catalog-products">
+
+
+
+
+
+      <section class="catalog-products clearfix">
           <div class="product">
-            <img src="img\product-1.png" alt="Мороженое">
+            <img src="img/product-1.png" width="200" height="200" alt="Мороженое">
             <div class="product-price">
               310 <span>/кг</span>
             </div>
@@ -147,7 +155,7 @@
             </p>
           </div>
           <div class="product">
-            <img src="img\product-2.png" alt="Мороженое">
+            <img src="img/product-2.png" width="200" height="200" alt="Мороженое">
             <div class="product-price">
               380 <span>/кг</span>
             </div>
@@ -157,7 +165,7 @@
             </p>
           </div>
           <div class="product">
-            <img src="img\product-3.png" alt="Мороженое">
+            <img src="img/product-3.png" width="200" height="200" alt="Мороженое">
             <div class="product-price">
               355 <span>/кг</span>
             </div>
@@ -167,7 +175,7 @@
             </p>
           </div>
           <div class="product">
-            <img src="img\product-4.png" alt="Мороженое">
+            <img src="img/product-4.png" width="200" height="200" alt="Мороженое">
             <div class="product-price">
               415 <span>/кг</span>
             </div>
@@ -177,7 +185,7 @@
             </p>
           </div>
           <div class="product">
-            <img src="img\product-5.png" alt="Мороженое">
+            <img src="img/product-5.png" width="200" height="200" alt="Мороженое">
             <div class="product-price">
               325 <span>/кг</span>
             </div>
@@ -187,7 +195,7 @@
             </p>
           </div>
           <div class="product">
-            <img src="img\product-6.png" alt="Мороженое">
+            <img src="img/product-6.png" width="200" height="200" alt="Мороженое">
             <div class="product-price">
               410 <span>/кг</span>
             </div>
@@ -197,7 +205,7 @@
             </p>
           </div>
           <div class="product">
-            <img src="img\product-7.png" alt="Мороженое">
+            <img src="img/product-7.png" width="200" height="200" alt="Мороженое">
             <div class="product-price">
               375 <span>/кг</span>
             </div>
@@ -207,7 +215,7 @@
             </p>
           </div>
           <div class="product">
-            <img src="img\product-8.png" alt="Мороженое">
+            <img src="img/product-8.png" width="200" height="200" alt="Мороженое">
             <div class="product-price">
               320 <span>/кг</span>
             </div>
@@ -217,7 +225,7 @@
             </p>
           </div>
           <div class="product">
-            <img src="img\product-9.png" alt="Мороженое">
+            <img src="img/product-9.png" width="200" height="200" alt="Мороженое">
             <div class="product-price">
               440 <span>/кг</span>
             </div>
@@ -227,7 +235,7 @@
             </p>
           </div>
           <div class="product">
-            <img src="img\product-10.png" alt="Мороженое">
+            <img src="img/product-10.png" width="200" height="200" alt="Мороженое">
             <div class="product-price">
               435 <span>/кг</span>
             </div>
@@ -237,7 +245,7 @@
             </p>
           </div>
           <div class="product">
-            <img src="img\product-11.png" alt="Мороженое">
+            <img src="img/product-11.png" width="200" height="200" alt="Мороженое">
             <div class="product-price">
               355 <span>/кг</span>
             </div>
@@ -247,7 +255,7 @@
             </p>
           </div>
           <div class="product">
-            <img src="img\product-12.png" alt="Мороженое">
+            <img src="img/product-12.png" width="200" height="200" alt="Мороженое">
             <div class="product-price">
               420 <span>/кг</span>
             </div>
@@ -256,23 +264,25 @@
             </p>
           </div>
       </section>
-      <div class="plaginator">
-        <a class="btn btn-active" href="#">1</a>
-        <a class="btn" href="#">2</a>
-        <a class="btn" href="#">3</a>
-        <a class="btn" href="#">4</a>
-        <a class="btn" href="#">5</a>
+      <div class="plaginator clearfix">
+        <div class="plaginator-button">
+          <a class="btn btn-active" href="#">1</a>
+          <a class="btn" href="#">2</a>
+          <a class="btn" href="#">3</a>
+          <a class="btn" href="#">4</a>
+          <a class="btn" href="#">5</a>
+        </div>
       </div>
     </main>
-    <footer>
-      <div class="container">
+    <footer class="main-footer">
+      <div class="container clearfix">
         <section class="footer-social">
           <a class="social-btn social-btn-twr">Твиттер</a>
           <a class="social-btn social-btn-inst">Инстаграм</a>
           <a class="social-btn social-btn-fb">Фейсбук</a>
           <a class="social-btn social-btn-vk">Вконакте</a>
         </section>
-        <section class="  footer-info">
+        <section class="footer-info">
           <div class="footer-info-left">
             <a href="#">Для поставщиков</a>
             <a href="#">О производстве</a>
@@ -286,9 +296,11 @@
           <a href="https://htmlacademy.ru/">
             <img src="img/htmlacademy-logo.svg" width="108" height="37" alt="html academy">
           </a>
+          <div class="footer-copyright-caption">
             Сделано в
-          <a href="https://htmlacademy.ru/">HTML Academy</a>
+            <a href="https://htmlacademy.ru/">HTML Academy</a>
             © 2016
+          </div>
         </section>
       </div>
     </footer>

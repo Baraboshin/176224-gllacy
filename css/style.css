@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", "Arial" sans-serif;
   color: #ffffff;
+  background-color: #9aafa3;
 }
 
 h1{
@@ -26,6 +27,7 @@ h1{
   font-family: "Roboto Medium", "Arial" sans-serif;
   font-size: 16px;
   line-height: 22px;
+  color: #5a5a5a;
 }
 
 .news-blog span{
@@ -36,8 +38,8 @@ h1{
 }
 
 .subscription p{
-    font-size: 16px;
-    line-height: 22px;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .product-price{
@@ -52,4 +54,266 @@ h1{
   font-family: "Roboto Medium", "Arial" sans-serif;
   font-size: 16px;
   line-height: 22px;
+}
+
+p.subscription-description {
+  margin: 0px;
+}
+
+.main-contacts{
+  color: #000000;
+}
+
+.container {
+  width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.main-navigation {
+  float: left;
+}
+
+.main-navigation img {
+  float: left;
+}
+
+.main-navigation ul {
+  float: left;
+  list-style: none;
+}
+
+.navigation-item,
+.user-block-item {
+  display: inline-block;
+}
+
+.main-navigation ul,
+.user-block ul {
+  padding: 23px 0;
+  font-size: 0px;
+}
+
+.navigation-item {
+  margin-right: 2px;
+  font-size: 16px;
+}
+.user-block-item{
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.user-block {
+  float: right;
+}
+
+.user-block ul {
+  list-style: none;
+}
+
+.header-contacts {
+  float: right;
+  clear: right;
+}
+
+.main-footer{
+  padding: 20px 0;
+}
+
+.footer-social {
+  float: left;
+  width: 200px;
+  margin-right: 20px;
+}
+
+.footer-info {
+  float: left;
+  width: 420px;
+  margin-right: 20px;
+}
+
+.footer-copyright{
+  float: right;
+  width: 180px;
+  padding-left: 20px;
+  font-size: 12px;
+}
+
+.main-background-product{
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.banner{
+  width: 420px;
+  min-height: 229px;
+  border-radius: 15px;
+}
+
+.main-banners{
+  margin-bottom: 30px;
+}
+
+.banner-left {
+  float: left;
+  background: url(../img/banners-background-1.jpg);
+}
+
+.banner-right {
+  float: right;
+  background-image: url(../img/banners-background-2.jpg);
+}
+
+.hit{
+  float: left;
+  margin-right: 20px;
+}
+
+.hit:nth-child(4n) {
+  margin-right: 0;
+}
+
+.main-seo {
+  min-height: 312px;
+  padding: 30px 20px;
+  margin-bottom: 40px;
+  border-radius: 15px;
+  background-image: url(../img/seo-background.jpg);
+}
+
+.seo-column {
+  width: 400px;
+}
+
+.column-left {
+  float: left;
+}
+
+.column-right {
+  float: right;
+}
+
+.news-and-susscription{
+  margin-bottom: 40px;
+}
+.news-blog{
+  float: left;
+  width: 380px;
+  min-height: 166px;
+  padding: 27px 20px;
+  border-radius: 15px;
+  background-image: url(../img/news-background.jpg);
+}
+
+.subscription{
+  float: right;
+  width: 420px;
+  padding: 6px;
+  border-radius: 15px;
+  background-color: #f8f7f4;
+  background-image: url(../img/mail-pattern.png);
+}
+
+.subscription-design{
+  min-height: 208px;
+  border-radius: 15px;
+  background-color: #f8f7f4;
+}
+
+.main-contacts{
+  width: 900px;
+  min-height: 367px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 62px;
+  background-image: url(../img/map-1.jpg);
+}
+
+.contacts-info{
+  float: right;
+  width: 250px;
+  padding-top: 35px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 30px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.98);
+}
+
+.breadcrumbs {
+  margin-bottom: 8px;
+}
+
+.breadcrumbs ul{
+  padding: 0;
+  list-style: none;
+  font-size: 0px;
+}
+
+.breadcrumbs-item {
+  display: inline-block;
+  margin-right: 7px;
+  font-size: 14px;
+}
+
+.catalog-products {
+  margin-bottom: 25px;
+}
+
+.filters{
+  margin-bottom: 40px;
+}
+
+.filters  ul {
+  padding: 0;
+}
+
+.filters > ul {
+  font-size: 0;
+}
+
+.filters-item li{
+  list-style: none;
+}
+
+.filters-item {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+.filter-fatness li,
+.filter-fillers li {
+  margin-right: 20px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.filter-fatness,
+.filter-fillers{
+  font-size: 0;
+}
+
+.product {
+  float: left;
+  width: 200px;
+  min-height: 370px;
+}
+
+.catalog-products .product {
+  margin-right: 20px;
+}
+
+.catalog-products .product:nth-child(4n) {
+  margin-right: 0;
+}
+
+.plaginator-button{
+  float: right;
 }
