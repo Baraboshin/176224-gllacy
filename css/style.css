@@ -92,6 +92,7 @@ p.subscription-description {
 .navigation-item,
 .user-block-item {
   display: inline-block;
+  vertical-align: top;
 }
 
 .main-navigation ul,
@@ -168,15 +169,6 @@ p.subscription-description {
 .banner-right {
   float: right;
   background-image: url(../img/banners-background-2.jpg);
-}
-
-.hit{
-  float: left;
-  margin-right: 20px;
-}
-
-.hit:nth-child(4n) {
-  margin-right: 0;
 }
 
 .main-seo {
@@ -260,6 +252,7 @@ p.subscription-description {
   display: inline-block;
   margin-right: 7px;
   font-size: 14px;
+  vertical-align: top;
 }
 
 .catalog-products {
@@ -306,11 +299,12 @@ p.subscription-description {
   min-height: 370px;
 }
 
-.catalog-products .product {
+ .product {
   margin-right: 20px;
 }
 
-.catalog-products .product:nth-child(4n) {
+
+.product:nth-child(4n) {
   margin-right: 0;
 }
 
