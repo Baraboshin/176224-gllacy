@@ -48,7 +48,7 @@ a {
 }
 
 
-.main-contacts{
+.main-map{
   color: #000000;
 }
 
@@ -960,7 +960,7 @@ body > input[type="radio"] {
 
 
 /*CONTACTS*/
-.main-contacts {
+.main-map {
   position: relative;
   width: 860px;
   min-height: 367px;
@@ -968,7 +968,7 @@ body > input[type="radio"] {
 
 }
 
-.main-contacts::after {
+.main-map::after {
   content: "";
   position: absolute;
   z-index: 0;
@@ -981,7 +981,7 @@ body > input[type="radio"] {
 }
 
 
-.main-contacts-pin {
+.main-map-pin {
   position: absolute;
   z-index: 10;
   top: 138px;
@@ -993,7 +993,7 @@ body > input[type="radio"] {
         url("../img/pin-shadow.png") no-repeat 39px 29px;
 }
 
-.contacts-content {
+.map-content {
   position: absolute;
   top: 63px;
   left: 560px;
@@ -1004,7 +1004,7 @@ body > input[type="radio"] {
   background-color: rgba(255, 255, 255, 0.98);
 }
 
-.contacts-content p {
+.map-content p {
   margin: 0 0;
   margin-bottom: 22px;
   font-family: "Roboto", "Arial", sans-serif;
@@ -1012,13 +1012,13 @@ body > input[type="radio"] {
   line-height: 20px;
 }
 
-.contacts-content span {
+.map-content span {
   font-family: "Roboto Bold", "Arial", sans-serif;
   font-size: 18px;
   line-height: 24px;
 }
 
-.main-contacts .btn-contacts {
+.main-map .btn-map {
   display: block;
   margin-top: 30px;
   text-align: center;
