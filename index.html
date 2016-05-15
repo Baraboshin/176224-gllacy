@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
     <link href="css/normalize.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,500&subset=latin,cyrillic" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
@@ -20,23 +20,25 @@
               <ul class="navigation-list">
                 <li class="navigation-item">
                   <a href="#">Каталог</a>
-                  <ul class="sub-menu">
-                    <li class="sub-menu-item novelty">
-                      <a href="#">Новинки</a>
-                    </li>
-                    <li class="sub-menu-item">
-                      <a href="catalog.html">Сливочное</a>
-                    </li>
-                    <li class="sub-menu-item">
-                      <a href="#">Щербеты</a>
-                    </li>
-                    <li class="sub-menu-item">
-                      <a href="#">Фруктовый лёд</a>
-                    </li>
-                    <li class="sub-menu-item">
-                      <a href="#">Мелорин</a>
-                    </li>
-                  </ul>
+                  <div class="sub-menu-help">
+                    <ul class="sub-menu">
+                      <li class="sub-menu-item novelty">
+                        <a href="#">Новинки</a>
+                      </li>
+                      <li class="sub-menu-item">
+                        <a href="catalog.html">Сливочное</a>
+                      </li>
+                      <li class="sub-menu-item">
+                        <a href="#">Щербеты</a>
+                      </li>
+                      <li class="sub-menu-item">
+                        <a href="#">Фруктовый лёд</a>
+                      </li>
+                      <li class="sub-menu-item">
+                        <a href="#">Мелорин</a>
+                      </li>
+                    </ul>
+                  </div>
                 </li>
                 <li class="navigation-item">
                   <a href="#">Доставка и оплата</a>
@@ -49,34 +51,41 @@
             <div class="user-block">
               <ul class="user-block-list">
                 <li class="user-block-item search">
-                  <div class="search-sub">
-                    <form class="search-sub-form" action="#" method="get">
-                      <input class="search-sub-form-input field-input" type="text" name="search" placeholder="Что ищем?">
-                    </form>
+                  <div class="search-sub-help">
+                    <div class="search-sub">
+                      <form class="search-sub-form" action="#" method="get">
+                        <input class="search-sub-form-input field-input" type="text" name="search" placeholder="Что ищем?">
+                      </form>
+                    </div>
                   </div>
                 </li>
-                <li class="user-block-item login">Вход
-                  <div class="login-sub">
-                    <form class="login-sub-form" action="#" method="post">
-                      <ul class="login-sub-list">
-                        <li class="login-sub-list-item">
-                          <input class="list-item-input field-input" type="text" name="login" placeholder="Электронная почта">
-                        </li>
-                        <li class="login-sub-list-item">
-                          <input class="list-item-input field-input" type="password" name="Password" placeholder="Пароль">
-                        </li>
-                        <li class="login-sub-list-item-submit clearfix">
-                          <input class="btn-medium btn-login" type="submit" name="name" value="Войти">
-                          <div class="pass-help">
-                            <a class="link-type-2" href="#">Забыли пароль?</a>
-                            <a class="link-type-2" href="#">Новая регистрация</a>
-                          </div>
-                        </li>
-                      </ul>
-                    </form>
+                <li class="user-block-item">
+                  <a class="login" href="authorization.html">Вход</a>
+                  <div class="login-sub-help">
+                    <div class="login-sub">
+                      <form class="login-sub-form" action="#" method="post">
+                        <ul class="login-sub-list">
+                          <li class="login-sub-list-item">
+                            <input class="list-item-input field-input" type="text" name="login" placeholder="Электронная почта">
+                          </li>
+                          <li class="login-sub-list-item">
+                            <input class="list-item-input field-input" type="password" name="Password" placeholder="Пароль">
+                          </li>
+                          <li class="login-sub-list-item-submit clearfix">
+                            <input class="btn-medium btn-login" type="submit" name="name" value="Войти">
+                            <div class="pass-help">
+                              <a class="link-type-2" href="#">Забыли пароль?</a>
+                              <a class="link-type-2" href="#">Новая регистрация</a>
+                            </div>
+                          </li>
+                        </ul>
+                      </form>
+                    </div>
                   </div>
                 </li>
-                <li class="user-block-item basket">Пусто</li>
+                <li class="user-block-item">
+                  <a class="basket">Пусто</a>
+                </li>
               </ul>
             </div>
             <div class="breadcrumbs-contacts clearfix">
@@ -110,7 +119,7 @@
           <section class="main-banners clearfix">
             <article class="banner banner-left">
               <h2 class="banner-title">Малинка даром!</h2>
-              <p class="banner-description">При покупке 2 кг любого фрутового
+              <p class="banner-description">При покупке 2 кг любого фруктового
               мороженого, добавим в ваш заказ банку
               малинового варенья бесплатно.</p>
               <a class="btn-medium btn-banner" href="#">Хочу варенье!</a>
@@ -131,11 +140,11 @@
                   310<span>/кг</span>
                 </div>
                 <p class="product-card-description">
-                  Сливочное с<br>
-                  апельсиновым джемом<br>
+                  Сливочное с
+                  апельсиновым джемом
                   и цитрусовой стружкой
                 </p>
-                <button class="btn-medium" type="button">Быстрый просмотр</button>
+                <a class="btn-medium btn-product" href="#">Быстрый просмотр</a>
               </div>
             </div>
             <div class="product">
@@ -145,10 +154,10 @@
                     380<span>/кг</span>
                   </div>
                   <p class="product-card-description">
-                    Сливочно-кофейное с<br>
+                    Сливочно-кофейное с
                     кусочками шоколада
                   </p>
-                  <button class="btn-medium" type="button">Быстрый просмотр</button>
+                  <a class="btn-medium btn-product" href="#">Быстрый просмотр</a>
               </div>
             </div>
             <div class="product">
@@ -158,11 +167,11 @@
                   355<span>/кг</span>
                 </div>
                 <p class="product-card-description">
-                  Сливочно-клубничное с<br>
-                  присыпкой из белого<br>
+                  Сливочно-клубничное с
+                  присыпкой из белого
                   шоколада
                 </p>
-                <button class="btn-medium" type="button">Быстрый просмотр</button>
+                <a class="btn-medium btn-product" href="#">Быстрый просмотр</a>
               </div>
             </div>
             <div class="product">
@@ -172,10 +181,10 @@
                   415<span>/кг</span>
                 </div>
                 <p class="product-card-description">
-                  Сливочное крем-брюле<br>
+                  Сливочное крем-брюле
                   с карамельной подливкой
                 </p>
-                <button class="btn-medium" type="button">Быстрый просмотр</button>
+                <a class="btn-medium btn-product" href="#">Быстрый просмотр</a>
               </div>
             </div>
           </section>
@@ -188,20 +197,20 @@
                 <li class="seo-column-item">
                   <img class="seo-column-item-icon" src="img/seo-icecream.svg" width="48" height="48" alt="icecream">
                   <p class="seo-column-item-content">
-                    Все наше мороженое изготавливается на<br>
-                    собственном производстве, с<br>
-                    использованием современного<br>
-                    оборудования и проверенных временем<br>
+                    Все наше мороженое изготавливается на
+                    собственном производстве, с
+                    использованием современного
+                    оборудования и проверенных временем
                     технологий.
                   </p>
                 </li>
                 <li class="seo-column-item">
                   <img class="seo-column-item-icon" src="img/seo-leaf.svg" width="48" height="48"  alt="leaf">
                   <p class="seo-column-item-content">
-                    Для приготовления мороженого<br>
-                    используются настоящие сливки и молоко<br>
-                    высочайшего качества. Все дополнительные<br>
-                    ингредиенты и добавки произведены из<br>
+                    Для приготовления мороженого
+                    используются настоящие сливки и молоко
+                    высочайшего качества. Все дополнительные
+                    ингредиенты и добавки произведены из
                     натурального, экологически чистого сырья.
                   </p>
                 </li>
@@ -210,9 +219,9 @@
                 <li class="seo-column-item">
                   <img class="seo-column-item-icon" src="img/seo-cow.svg" width="48" height="48" alt="Cow">
                   <p class="seo-column-item-content">
-                    Закупка ингредиентов  производится только<br>
-                    у проверенных фермерских хозяйств и<br>
-                    компаний, с которыми нас связывает<br>
+                    Закупка ингредиентов  производится только
+                    у проверенных фермерских хозяйств и
+                    компаний, с которыми нас связывает
                     долговременное сотрудничество.
                   </p>
                 </li>
@@ -220,9 +229,9 @@
                   <img class="seo-column-item-icon" src="img/seo-thermometer.svg" width="48" height="48" alt="thermometer">
                   <p class="seo-column-item-content">
                     Доставка нашего мороженого до<br>
-                    заказчиков осуществляется в специальном<br>
-                    термопаке, который не дает мороженому<br>
-                    растаять в пути и позволяет ему сохранить<br>
+                    заказчиков осуществляется в специальном
+                    термопаке, который не дает мороженому
+                    растаять в пути и позволяет ему сохранить
                     свой превосходный вкус.
                   </p>
                 </li>
@@ -241,8 +250,8 @@
               <div class="subscription-design">
                 <p class="subscription-content">
                   Подпишитесь на нашу сладкую рассылку и<br>
-                  будете всегда в курсе всего самого вкусного,<br>
-                  что у нас происходит. Обещаем не спамить и не<br>
+                  будете всегда в курсе всего самого вкусного,
+                  что у нас происходит. Обещаем не спамить и не
                   слать всякой не нужной ерунды. Честно =)
                 </p>
                 <form class="subscription-form" action="#" method="post">
@@ -253,9 +262,10 @@
             </section>
           </div>
         </main>
-        <section class="map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6010477978566!2d30.32744993492939!3d59.93876193581768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1463050929237" width="900" height="430" frameborder="0" style="border:0" allowfullscreen></iframe>
-          <div class="map-content">
+      </div>
+        <section class="main-map">
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6010477978566!2d30.32744993492939!3d59.93876193581768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1463050929237" width="100%" height="430" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <div class="main-map-content">
             <p>
               Адрес главного офиса и<br>
               и офлайн магазина:<br>
@@ -271,7 +281,7 @@
              </span><br>
              (с 10 до 20 ежедневно)
             </p>
-            <a class="btn-medium btn-map" href="#">Форма обратной связи</a>
+            <a class="btn-medium btn-map" href="feedback.html">Форма обратной связи</a>
           </div>
         </section>
 
@@ -313,7 +323,6 @@
           </div>
         </footer>
       </div>
-    </div>
     <div class="modal-content clearfix">
       <button class="modal-content-close" type="button" name="button" title="Закрыть">Закрыть</button>
       <h2 class="modal-content-title">Мы обязательно вам ответим!</h2>
