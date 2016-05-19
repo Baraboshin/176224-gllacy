@@ -1105,7 +1105,12 @@ body > input[type="radio"] {
   margin-right: 58px;
 }
 
+.filters-item:nth-child(2) {
+  margin-right: 0;
+}
+
 .filters-item:nth-child(3) {
+  float: right;
   margin-right: 0;
 }
 
