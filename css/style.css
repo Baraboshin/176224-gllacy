@@ -1102,10 +1102,12 @@ body > input[type="radio"] {
   vertical-align: top;
 }
 .filters-item:first-child {
+  float: left;
   margin-right: 58px;
 }
 
 .filters-item:nth-child(2) {
+  float: left;
   margin-right: 0;
 }
 
@@ -1410,12 +1412,14 @@ input[type="checkbox"]:checked + label:after{
 .paginator-buttons {
   float: right;
   font-size: 0;
+
 }
 
 .paginator-btn {
   display: inline-block;
   vertical-align: middle;
   min-width: 18px;
+  height: 18px;
   padding: 4px 4px;
   margin-right: 3px;
   font-size: 16px;
